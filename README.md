@@ -3,6 +3,7 @@
 A simple script to toggle screen color temperature adjustment using ```redshift```, ideal for reducing eye strain during night hours.
 
 ## Features
+
 - Toggles redshift on/off with a preset color temperature (5950K)
 - Uses customizable gamma settings (1.00:1.00:1.00)
 - Maintains state to remember current mode between sessions
@@ -12,10 +13,8 @@ A simple script to toggle screen color temperature adjustment using ```redshift`
 
 ## Installation
 
-### 1. Install libvibrant
-Choose one of these methods:
+### 1. Install redshift
 
-#### Option A: Native Installation
 ```bash
 # For Debian/Ubuntu
 sudo apt install redshift
@@ -27,19 +26,16 @@ sudo dnf install redshift
 sudo pacman -S redshift
 ```
 
-#### Option B: Flatpak Installation
-```bash
-flatpak install flathub org.freedesktop.Redshift
-```
-
 ### 2. Download the script
+
 ```bash
 # Make a personal bin folder where you can store custom scripts
 mkdir -p ~/.local/bin
-wget https://raw.githubusercontent.com/leodecarlo/your-repo/main/toggle-redshift.sh -O ~/.local/bin/toggle-redshift.sh
+wget https://raw.githubusercontent.com/leodecarlo/Linux-in-RedShift/main/toggle-redshift.sh -O ~/.local/bin/toggle-redshift.sh
 ```
 
 ### 3. Make it executable
+
 ```
 chmod +x ~/.local/bin/toggle-redshift.sh
 ```
