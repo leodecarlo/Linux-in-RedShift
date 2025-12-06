@@ -36,7 +36,7 @@ wget https://raw.githubusercontent.com/leodecarlo/Linux-in-RedShift/main/toggle-
 
 ### 3. Make it executable
 
-```
+```bash
 chmod +x ~/.local/bin/toggle-redshift.sh
 ```
 
